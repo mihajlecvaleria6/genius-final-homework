@@ -1,0 +1,56 @@
+.nutriction-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 72px;
+}
+
+.nutriction-container {
+  display: flex;
+  align-items: center;
+  gap: 351px;
+}
+
+.nutrition-title {
+  margin: 0;
+  color: var(--color-primary-light);
+  font-family: 'Rowdies', sans-serif;
+  font-size: 56px;
+  line-height: 1.2;
+}
+
+.nutriction-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nutrition-menu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nutriction-text {
+  display: flex;
+  align-items: center;
+  color: var(--color-primary-light);
+  margin-left: 6px;
+  margin: 0;
+}
+
+.nutrition-button {
+  display: flex;
+  max-width: 150px;
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid var(--color-secondary-gray);
+  border-radius: 0px 2px 2px 0px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.nutrition-button:hover {
+  color: var(--color-brand);
+  background-color: var(--color-primary-light);
+}

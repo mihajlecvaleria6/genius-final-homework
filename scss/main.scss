@@ -1,0 +1,27 @@
+@import './utils/fonts';
+@import './utils/utils';
+@import './utils/variables';
+@import './base.scss';
+
+@import './componets/button';
+@import './componets/carousel-button';
+@import './componets/checkbox';
+@import './componets/customer-card';
+@import './componets/input';
+@import './componets/links';
+@import './componets/pagination';
+@import './componets/service-card';
+
+@import './layout/contact-section';
+@import './layout/container';
+@import './layout/customer-section';
+@import './layout/footer';
+@import './layout/forms';
+@import './layout/header';
+@import './layout/hero-section';
+@import './layout/modal-section';
+@import './layout/nutriction-section';
+@import './layout/section';
+@import './layout/service-section';
+@import './layout/shop-section';
+@import './layout/walk-section';
